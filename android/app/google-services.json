@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "143291502280",
+    "project_id": "appdevfinalexam-bcfd4",
+    "storage_bucket": "appdevfinalexam-bcfd4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143291502280:android:ddf94a7d9af1f3568f9ffd",
+        "android_client_info": {
+          "package_name": "com.example.app_dev_final_exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFZ-jwe1OHrXHYEH0TEEGXotCZUv4CKvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
