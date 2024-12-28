@@ -7,6 +7,7 @@ class Juice {
   final num price;
   final num deliveryLower;
   final num deliveryUpper;
+  final String url;
 
   Juice(
       {required this.name,
@@ -16,7 +17,8 @@ class Juice {
       required this.rating,
       required this.price,
       required this.deliveryLower,
-      required this.deliveryUpper,});
+      required this.deliveryUpper,
+      required this.url});
 
   factory Juice.fromSnapShot(Map<String, dynamic> snapshot) {
     return Juice(
@@ -27,6 +29,7 @@ class Juice {
         rating: snapshot["rating"],
         price: snapshot["price"],
         deliveryLower: snapshot["delivery_lower"],
-        deliveryUpper: snapshot["delivery_upper"]);
+        deliveryUpper: snapshot["delivery_upper"]
+    ,   url:snapshot["image"]??"https://w7.pngwing.com/pngs/0/852/png-transparent-strawberry-juice-sugarcane-juice-strawberry-juice-smoothie-orange-juice-strawberry-juice-food-strawberries-health-shake-thumbnail.png");
   }
 }

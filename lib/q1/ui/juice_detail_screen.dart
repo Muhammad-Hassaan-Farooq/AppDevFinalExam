@@ -52,7 +52,7 @@ class JuiceDetailScreen extends StatelessWidget {
                   Padding(
                       padding: EdgeInsets.all(16),
                       child: Image.network(
-                        "https://w7.pngwing.com/pngs/0/852/png-transparent-strawberry-juice-sugarcane-juice-strawberry-juice-smoothie-orange-juice-strawberry-juice-food-strawberries-health-shake-thumbnail.png",
+                        juice.url,
                         height: 300,
                       )),
                   Row(

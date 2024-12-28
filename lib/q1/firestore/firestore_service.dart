@@ -7,7 +7,7 @@ class FirestoreService {
       FirebaseFirestore.instance.collection('juices');
 
   Future<List<Juice>> getJuices() async {
-    final juices = await _juicesCollection.snapshots().map((snapshot) {
+    final juices = _juicesCollection.snapshots().map((snapshot) {
       return snapshot.docs.map((doc) {
         return Juice.fromSnapShot(doc.data() as Map<String, dynamic>);
       }).toList();

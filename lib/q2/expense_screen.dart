@@ -66,7 +66,7 @@ class ExpenseScreen extends StatelessWidget {
                         height: 120,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.purple.withOpacity(0.2),
+                          color: Color(0xffefeafc),
                         ),
                         child: Center(
                           child: Text(
@@ -88,7 +88,7 @@ class ExpenseScreen extends StatelessWidget {
                         height: 100,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.green.withOpacity(0.2),
+                          color: Color(0xffe0f6ec),
                         ),
                         child: Center(
                           child: Text(
@@ -110,7 +110,7 @@ class ExpenseScreen extends StatelessWidget {
                         height: 70,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.red.withOpacity(0.2),
+                          color: Color(0xffffe4e8),
                         ),
                         child: Center(
                           child: Text(
@@ -132,7 +132,7 @@ class ExpenseScreen extends StatelessWidget {
                         height: 50,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.orange.withOpacity(0.2),
+                          color: Color(0xfffff0df),
                         ),
                         child: Center(
                           child: Text(
@@ -186,7 +186,7 @@ class ExpenseScreen extends StatelessWidget {
                           children: [
                             Text(
                               'Grocery',
-                              style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                              style: TextStyle(color: Colors.purple,fontSize: 14, fontWeight: FontWeight.w500),
                             ),
                             Text(
                               '\$758.20',
@@ -209,7 +209,7 @@ class ExpenseScreen extends StatelessWidget {
                           children: [
                             Text(
                               'Food & Drink',
-                              style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                              style: TextStyle(color: Colors.green,fontSize: 14, fontWeight: FontWeight.w500),
                             ),
                             Text(
                               '\$758.20',
@@ -260,7 +260,7 @@ class ExpenseScreen extends StatelessWidget {
                         children: [
                           Text(
                             'Shopping',
-                            style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                            style: TextStyle(color: Colors.red,fontSize: 14, fontWeight: FontWeight.w500),
                           ),
                           Text(
                             '\$758.20',
@@ -282,7 +282,7 @@ class ExpenseScreen extends StatelessWidget {
                           children: [
                             Text(
                               'Transportation',
-                              style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+                              style: TextStyle(color: Colors.orange,fontSize: 14, fontWeight: FontWeight.w500),
                             ),
                             Text(
                                 '\$758.20',
