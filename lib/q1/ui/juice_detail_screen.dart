@@ -86,7 +86,8 @@ class JuiceDetailScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      Text(juice.rating.toString()),
+                      Text("${juice.rating} stars"),
+                      SizedBox(width: 10),
                       Text(juice.ratingsCount.toString()),
                     ],
                   ),
