@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class WeeklyExpenseScreen extends StatelessWidget {
-  const WeeklyExpenseScreen({super.key});
+class ExpenseScreen extends StatelessWidget {
+  const ExpenseScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -54,26 +54,35 @@ class WeeklyExpenseScreen extends StatelessWidget {
                   alignment: Alignment.center,
                   children: [
                     Container(
-                      width: 150,
-                      height: 150,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: Colors.purple.withOpacity(0.2),
-                      ),
-                      child: Center(
-                        child: Text(
-                          '48%',
-                          style: TextStyle(
-                            fontSize: 24,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.purple,
+                      width: 600,
+                      height: 200,
+                      child: Center(),
+                    ),
+                    Positioned(
+                      top: 30,
+                      left: 40,
+                      child: Container(
+                        width: 120,
+                        height: 120,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.purple.withOpacity(0.2),
+                        ),
+                        child: Center(
+                          child: Text(
+                            '48%',
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.purple,
+                            ),
                           ),
                         ),
                       ),
                     ),
                     Positioned(
-                      right: 10,
-                      bottom: 10,
+                      top: 0,
+                      left: 155,
                       child: Container(
                         width: 100,
                         height: 100,
@@ -94,8 +103,8 @@ class WeeklyExpenseScreen extends StatelessWidget {
                       ),
                     ),
                     Positioned(
-                      left: 10,
-                      top: 10,
+                      left: 150,
+                      top: 105,
                       child: Container(
                         width: 70,
                         height: 70,
@@ -116,8 +125,8 @@ class WeeklyExpenseScreen extends StatelessWidget {
                       ),
                     ),
                     Positioned(
-                      right: 50,
-                      top: 50,
+                      left: 220,
+                      top: 95,
                       child: Container(
                         width: 50,
                         height: 50,

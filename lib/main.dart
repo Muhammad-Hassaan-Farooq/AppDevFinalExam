@@ -29,7 +29,7 @@ class Q1 extends StatelessWidget{
         ),
         home: BlocProvider(
           create: (context) => JuiceBloc()..add(FetchJuice()),
-          child: WeeklyExpenseScreen(),
+          child: JuiceScreen(),
         )
     );
   }

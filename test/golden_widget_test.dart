@@ -1,5 +1,5 @@
-import 'package:app_dev_final_exam/auth/google_sign_in_screen.dart';
 import 'package:app_dev_final_exam/main.dart';
+import 'package:app_dev_final_exam/q2/expense_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -13,10 +13,10 @@ void main() {
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             useMaterial3: true,
           ),
-          home: GoogleSignInScreen(redirect: (String screen)=>{}))
+          home: ExpenseScreen())
         );
 
-    await expectLater(find.byType(GoogleSignInScreen),
-        matchesGoldenFile('main.png'));
+    await expectLater(find.byType(ExpenseScreen),
+        matchesGoldenFile('ui_sc.png'));
   });
 }
